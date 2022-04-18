@@ -25,3 +25,6 @@ I added some more functionalities, the command `konflict-start`
 will highlight all blocks with the pattern of a git conflict
 and then grep for lines that start with `<<<<<` so you can
 navigate conflicts with ease.
+
+![theme image](https://github.com/eko234/git-konflict.kak/blob/main/konflict.gif)
+
