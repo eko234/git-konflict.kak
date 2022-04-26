@@ -3,7 +3,7 @@ map global object <a-m> %{c^[<lt>]{4\,},^[<gt>]{4\,}[^\n]*<ret>} -docstring 'con
 
 define-command konflict-use-mine %{
   evaluate-commands -draft %{
-    execute-keys <g-h>h/^<lt>{4}<ret>xd
+    execute-keys ghh/^<lt>{4}<ret>xd
     execute-keys h/^={4}<ret>j
     execute-keys -with-maps <a-a>m
     execute-keys d
@@ -12,7 +12,7 @@ define-command konflict-use-mine %{
 
 define-command konflict-use-yours %{
   evaluate-commands -draft %{
-    execute-keys <g-h>j
+    execute-keys ghj
     execute-keys -with-maps <a-a>m
     execute-keys dh/^>{4}<ret>xd
   }
